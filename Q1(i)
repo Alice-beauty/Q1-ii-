@@ -1,0 +1,26 @@
+START
+PRINT:"Enter three numbers X,y,z"
+INPUT x,y,z
+ if (x <= y && y <= z){
+    PRINT z
+  }
+  else{
+
+    if (x <= z && z <= y){
+      PRINT y
+    }
+    else{
+
+      if (y <= x && x <= z){
+         PRINT z
+      }
+     
+   else 
+          PRINT null
+          
+          
+            }
+          }
+        }
+      
+        STOP
